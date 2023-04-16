@@ -1,0 +1,20 @@
+swap1
+  a) it is passing in a copy of the variables but not the address of the variables. This means that 
+     the actually memory is not being altered, the values are temporarily being swapped
+  b) the program did not swap the variables because it just passed in copies of the variables into the function 
+     but the memory address stays unchanged
+
+swap2
+  a) the memory addresses are being passed into the function swap
+  b) the values of x and y did not swap because the copies of the addresses were passed into the function but 
+     not the actual memory addresses of x and y 
+
+swap3
+  a) the pointers of x and y are being passed into the function swap 
+  b) the values of x and y did not swap because x and y were initilized as pointers with integer values instead
+     of just variables and then passing in the pointers of the values
+
+swap4
+  a) the memory addresses of x and y were passed into the function swap
+  b) the values did swap because the memory addresses were passed into the function and then the pointers of 
+     the values were swapped within the function 

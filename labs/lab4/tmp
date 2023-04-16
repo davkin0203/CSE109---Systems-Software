@@ -1,0 +1,349 @@
+
+argc (at address 0x7fff405ca38c) has value 1
+argv (at address 0x7fff405ca380) has value 0x7fff405ca468
+envp (at address 0x7fff405ca378) has value 0x7fff405ca478
+
+argv (at address 0x7fff405ca338) points to address 0x7fff405ca468
+	argv[0] (at address 0x7fff405ca468) points to address 0x7fff405cc535 where this string of 8 bytes is stored: 'lab4_ref'
+	argv[1] (at address 0x7fff405ca470) is (null)
+
+envp (at address 0x7fff405ca338) points to address 0x7fff405ca478
+	envp[0] (at address 0x7fff405ca478) points to address 0x7fff405cc53e where this string of 1789 bytes is stored: 'LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:'
+	envp[1] (at address 0x7fff405ca480) points to address 0x7fff405ccc3c where this string of 55 bytes is stored: 'LD_LIBRARY_PATH=/opt/gcc-7.1.0/lib64:/opt/gcc-7.1.0/lib'
+	envp[2] (at address 0x7fff405ca488) points to address 0x7fff405ccc74 where this string of 22 bytes is stored: 'XDG_MENU_PREFIX=gnome-'
+	envp[3] (at address 0x7fff405ca490) points to address 0x7fff405ccc8b where this string of 49 bytes is stored: 'MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD'
+	envp[4] (at address 0x7fff405ca498) points to address 0x7fff405cccbd where this string of 16 bytes is stored: 'LANG=en_US.UTF-8'
+	envp[5] (at address 0x7fff405ca4a0) points to address 0x7fff405cccce where this string of 20 bytes is stored: 'GDM_LANG=en_US.UTF-8'
+	envp[6] (at address 0x7fff405ca4a8) points to address 0x7fff405ccce3 where this string of 24 bytes is stored: 'HISTIGNORE=ls:ps:history'
+	envp[7] (at address 0x7fff405ca4b0) points to address 0x7fff405cccfc where this string of 22 bytes is stored: 'HISTCONTROL=ignoredups'
+	envp[8] (at address 0x7fff405ca4b8) points to address 0x7fff405ccd13 where this string of 46 bytes is stored: 'CARGO_TARGET_DIR=/scratch/.cargo/ddk225/target'
+	envp[9] (at address 0x7fff405ca4c0) points to address 0x7fff405ccd42 where this string of 25 bytes is stored: 'DISPLAY=128.180.120.167:0'
+	envp[10] (at address 0x7fff405ca4c8) points to address 0x7fff405ccd5c where this string of 12 bytes is stored: 'HOSTNAME=nix'
+	envp[11] (at address 0x7fff405ca4d0) points to address 0x7fff405ccd69 where this string of 40 bytes is stored: 'GRADLE_USER_HOME=/scratch/.gradle/ddk225'
+	envp[12] (at address 0x7fff405ca4d8) points to address 0x7fff405ccd92 where this string of 163 bytes is stored: 'PATH_modshare=/usr/sbin:1:/opt/conda3/bin:1:/usr/bin:1:.:1:/opt/gradle-7.4.2/bin:1:/usr/local/sbin:1:/opt/gcc-7.1.0/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1'
+	envp[13] (at address 0x7fff405ca4e0) points to address 0x7fff405cce36 where this string of 34 bytes is stored: 'LOADEDMODULES_modshare=gcc-7.1.0:1'
+	envp[14] (at address 0x7fff405ca4e8) points to address 0x7fff405cce59 where this string of 19 bytes is stored: 'COLORTERM=truecolor'
+	envp[15] (at address 0x7fff405ca4f0) points to address 0x7fff405cce6d where this string of 15 bytes is stored: 'USERNAME=ddk225'
+	envp[16] (at address 0x7fff405ca4f8) points to address 0x7fff405cce7d where this string of 27 bytes is stored: 'JAVA_HOME=/usr/lib/jvm/java'
+	envp[17] (at address 0x7fff405ca500) points to address 0x7fff405cce99 where this string of 31 bytes is stored: 'CFLAGS=-I/opt/gcc-7.1.0/include'
+	envp[18] (at address 0x7fff405ca508) points to address 0x7fff405cceb9 where this string of 13 bytes is stored: 'S_COLORS=auto'
+	envp[19] (at address 0x7fff405ca510) points to address 0x7fff405ccec7 where this string of 24 bytes is stored: 'which_declare=declare -f'
+	envp[20] (at address 0x7fff405ca518) points to address 0x7fff405ccee0 where this string of 68 bytes is stored: 'LD_LIBRARY_PATH_modshare=/opt/gcc-7.1.0/lib:1:/opt/gcc-7.1.0/lib64:1'
+	envp[21] (at address 0x7fff405ca520) points to address 0x7fff405ccf25 where this string of 25 bytes is stored: 'CC=/opt/gcc-7.1.0/bin/gcc'
+	envp[22] (at address 0x7fff405ca528) points to address 0x7fff405ccf3f where this string of 19 bytes is stored: 'XDG_SESSION_ID=2167'
+	envp[23] (at address 0x7fff405ca530) points to address 0x7fff405ccf53 where this string of 52 bytes is stored: 'MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl'
+	envp[24] (at address 0x7fff405ca538) points to address 0x7fff405ccf88 where this string of 11 bytes is stored: 'USER=ddk225'
+	envp[25] (at address 0x7fff405ca540) points to address 0x7fff405ccf94 where this string of 21 bytes is stored: 'DESKTOP_SESSION=gnome'
+	envp[26] (at address 0x7fff405ca548) points to address 0x7fff405ccfaa where this string of 32 bytes is stored: 'CONDA_PKGS_DIRS=/opt/conda3/pkgs'
+	envp[27] (at address 0x7fff405ca550) points to address 0x7fff405ccfcb where this string of 85 bytes is stored: 'GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/9c7655ed_1858_42ec_8160_ccfa0a80bdd1'
+	envp[28] (at address 0x7fff405ca558) points to address 0x7fff405cd021 where this string of 33 bytes is stored: 'PWD=/home/ddk225/cse109/labs/lab4'
+	envp[29] (at address 0x7fff405ca560) points to address 0x7fff405cd043 where this string of 50 bytes is stored: 'SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass'
+	envp[30] (at address 0x7fff405ca568) points to address 0x7fff405cd076 where this string of 17 bytes is stored: 'HOME=/home/ddk225'
+	envp[31] (at address 0x7fff405ca570) points to address 0x7fff405cd088 where this string of 21 bytes is stored: 'REALHOME=/home/ddk225'
+	envp[32] (at address 0x7fff405ca578) points to address 0x7fff405cd09e where this string of 20 bytes is stored: 'XDG_SESSION_TYPE=x11'
+	envp[33] (at address 0x7fff405ca580) points to address 0x7fff405cd0b3 where this string of 120 bytes is stored: 'XDG_DATA_DIRS=/home/ddk225/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'
+	envp[34] (at address 0x7fff405ca588) points to address 0x7fff405cd12c where this string of 47 bytes is stored: '_LMFILES__modshare=/etc/modulefiles/gcc-7.1.0:1'
+	envp[35] (at address 0x7fff405ca590) points to address 0x7fff405cd15c where this string of 25 bytes is stored: 'XDG_SESSION_DESKTOP=gnome'
+	envp[36] (at address 0x7fff405ca598) points to address 0x7fff405cd176 where this string of 23 bytes is stored: 'GJS_DEBUG_OUTPUT=stderr'
+	envp[37] (at address 0x7fff405ca5a0) points to address 0x7fff405cd18e where this string of 33 bytes is stored: 'CARGO_HOME=/scratch/.cargo/ddk225'
+	envp[38] (at address 0x7fff405ca5a8) points to address 0x7fff405cd1b0 where this string of 23 bytes is stored: 'LOADEDMODULES=gcc-7.1.0'
+	envp[39] (at address 0x7fff405ca5b0) points to address 0x7fff405cd1c8 where this string of 176 bytes is stored: '_JAVA_OPTIONS=-Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -DformatMsgNoLookups=true'
+	envp[40] (at address 0x7fff405ca5b8) points to address 0x7fff405cd279 where this string of 27 bytes is stored: 'MAIL=/var/spool/mail/ddk225'
+	envp[41] (at address 0x7fff405ca5c0) points to address 0x7fff405cd295 where this string of 32 bytes is stored: 'LOG4J_FORMAT_MSG_NO_LOOKUPS=true'
+	envp[42] (at address 0x7fff405ca5c8) points to address 0x7fff405cd2b6 where this string of 19 bytes is stored: 'TERM=xterm-256color'
+	envp[43] (at address 0x7fff405ca5d0) points to address 0x7fff405cd2ca where this string of 16 bytes is stored: 'VTE_VERSION=5204'
+	envp[44] (at address 0x7fff405ca5d8) points to address 0x7fff405cd2db where this string of 15 bytes is stored: 'SHELL=/bin/bash'
+	envp[45] (at address 0x7fff405ca5e0) points to address 0x7fff405cd2eb where this string of 17 bytes is stored: 'QT_IM_MODULE=ibus'
+	envp[46] (at address 0x7fff405ca5e8) points to address 0x7fff405cd2fd where this string of 19 bytes is stored: 'XMODIFIERS=@im=ibus'
+	envp[47] (at address 0x7fff405ca5f0) points to address 0x7fff405cd311 where this string of 40 bytes is stored: 'MANPATH_modshare=:1:/opt/gcc-7.1.0/man:1'
+	envp[48] (at address 0x7fff405ca5f8) points to address 0x7fff405cd33a where this string of 25 bytes is stored: 'XDG_CURRENT_DESKTOP=GNOME'
+	envp[49] (at address 0x7fff405ca600) points to address 0x7fff405cd354 where this string of 28 bytes is stored: 'GNOME_TERMINAL_SERVICE=:1.65'
+	envp[50] (at address 0x7fff405ca608) points to address 0x7fff405cd371 where this string of 11 bytes is stored: 'TMOUT=86400'
+	envp[51] (at address 0x7fff405ca610) points to address 0x7fff405cd37d where this string of 34 bytes is stored: 'VSCODE_EXTENSIONS=/opt/vscode-exts'
+	envp[52] (at address 0x7fff405ca618) points to address 0x7fff405cd3a0 where this string of 7 bytes is stored: 'SHLVL=2'
+	envp[53] (at address 0x7fff405ca620) points to address 0x7fff405cd3a8 where this string of 28 bytes is stored: 'MANPATH=/opt/gcc-7.1.0/man::'
+	envp[54] (at address 0x7fff405ca628) points to address 0x7fff405cd3c5 where this string of 15 bytes is stored: 'GDK_BACKEND=x11'
+	envp[55] (at address 0x7fff405ca630) points to address 0x7fff405cd3d5 where this string of 123 bytes is stored: 'MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles'
+	envp[56] (at address 0x7fff405ca638) points to address 0x7fff405cd451 where this string of 16 bytes is stored: 'GDMSESSION=gnome'
+	envp[57] (at address 0x7fff405ca640) points to address 0x7fff405cd462 where this string of 43 bytes is stored: 'GNOME_DESKTOP_SESSION_ID=this-is-deprecated'
+	envp[58] (at address 0x7fff405ca648) points to address 0x7fff405cd48e where this string of 14 bytes is stored: 'LOGNAME=ddk225'
+	envp[59] (at address 0x7fff405ca650) points to address 0x7fff405cd49d where this string of 97 bytes is stored: 'DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Q4CCy4FSuK,guid=edc3175ad49b3ae35c52dd5d640645b7'
+	envp[60] (at address 0x7fff405ca658) points to address 0x7fff405cd4ff where this string of 32 bytes is stored: 'XDG_RUNTIME_DIR=/run/user/250884'
+	envp[61] (at address 0x7fff405ca660) points to address 0x7fff405cd520 where this string of 51 bytes is stored: 'XAUTHORITY=/run/gdm/auth-for-ddk225-GML701/database'
+	envp[62] (at address 0x7fff405ca668) points to address 0x7fff405cd554 where this string of 96 bytes is stored: 'MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2'
+	envp[63] (at address 0x7fff405ca670) points to address 0x7fff405cd5b5 where this string of 140 bytes is stored: 'PATH=.:/opt/gcc-7.1.0/bin:.:/usr/share/Modules/bin:/opt/gradle-7.4.2/bin:/opt/conda3/bin:.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin'
+	envp[64] (at address 0x7fff405ca678) points to address 0x7fff405cd642 where this string of 36 bytes is stored: '_LMFILES_=/etc/modulefiles/gcc-7.1.0'
+	envp[65] (at address 0x7fff405ca680) points to address 0x7fff405cd667 where this string of 12 bytes is stored: 'PS1=nix:\w% '
+	envp[66] (at address 0x7fff405ca688) points to address 0x7fff405cd674 where this string of 47 bytes is stored: 'DEBUGINFOD_URLS=https://debuginfod.centos.org/ '
+	envp[67] (at address 0x7fff405ca690) points to address 0x7fff405cd6a4 where this string of 26 bytes is stored: 'GCC=/opt/gcc-7.1.0/bin/gcc'
+	envp[68] (at address 0x7fff405ca698) points to address 0x7fff405cd6bf where this string of 30 bytes is stored: 'MODULESHOME=/usr/share/Modules'
+	envp[69] (at address 0x7fff405ca6a0) points to address 0x7fff405cd6de where this string of 14 bytes is stored: 'HISTSIZE=65536'
+	envp[70] (at address 0x7fff405ca6a8) points to address 0x7fff405cd6ed where this string of 32 bytes is stored: 'GJS_DEBUG_TOPICS=JS ERROR;JS LOG'
+	envp[71] (at address 0x7fff405ca6b0) points to address 0x7fff405cd70e where this string of 18 bytes is stored: 'HISTFILESIZE=65536'
+	envp[72] (at address 0x7fff405ca6b8) points to address 0x7fff405cd721 where this string of 81 bytes is stored: 'SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/331387,unix/unix:/tmp/.ICE-unix/331387'
+	envp[73] (at address 0x7fff405ca6c0) points to address 0x7fff405cd773 where this string of 34 bytes is stored: 'LESSOPEN=||/usr/bin/lesspipe.sh %s'
+	envp[74] (at address 0x7fff405ca6c8) points to address 0x7fff405cd796 where this string of 144 bytes is stored: 'BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}'
+	envp[75] (at address 0x7fff405ca6d0) points to address 0x7fff405cd827 where this string of 48 bytes is stored: 'BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}'
+	envp[76] (at address 0x7fff405ca6d8) points to address 0x7fff405cd858 where this string of 1092 bytes is stored: 'BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}'
+	envp[77] (at address 0x7fff405ca6e0) points to address 0x7fff405cdc9d where this string of 644 bytes is stored: 'BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}'
+	envp[78] (at address 0x7fff405ca6e8) points to address 0x7fff405cdf22 where this string of 118 bytes is stored: 'BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}'
+	envp[79] (at address 0x7fff405ca6f0) points to address 0x7fff405cdf99 where this string of 37 bytes is stored: 'BASH_FUNC_ml%%=() {  module ml "$@"
+}'
+	envp[80] (at address 0x7fff405ca6f8) points to address 0x7fff405cdfbf where this string of 12 bytes is stored: '_=./lab4_ref'
+	envp[81] (at address 0x7fff405ca700) points to address 0x7fff405cdfcc where this string of 32 bytes is stored: 'OLDPWD=/home/merle/109/labs/lab4'
+	envp[82] (at address 0x7fff405ca708) is (null)
+
+argv (at address 0x7fff405ca338) points to address 0x7fff405ca468
+	argv[0] (at address 0x7fff405ca468) points to address 0x7fff405cc535 where this string of 8 bytes is stored: 'lab4_ref'
+	argv[1] (at address 0x7fff405ca470) is (null)
+
+envp (at address 0x7fff405ca338) points to address 0x7fff405ca478
+	envp[0] (at address 0x7fff405ca478) points to address 0x7fff405cc53e where this string of 1789 bytes is stored: 'LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:'
+	envp[1] (at address 0x7fff405ca480) points to address 0x7fff405ccc3c where this string of 55 bytes is stored: 'LD_LIBRARY_PATH=/opt/gcc-7.1.0/lib64:/opt/gcc-7.1.0/lib'
+	envp[2] (at address 0x7fff405ca488) points to address 0x7fff405ccc74 where this string of 22 bytes is stored: 'XDG_MENU_PREFIX=gnome-'
+	envp[3] (at address 0x7fff405ca490) points to address 0x7fff405ccc8b where this string of 49 bytes is stored: 'MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD'
+	envp[4] (at address 0x7fff405ca498) points to address 0x7fff405cccbd where this string of 16 bytes is stored: 'LANG=en_US.UTF-8'
+	envp[5] (at address 0x7fff405ca4a0) points to address 0x7fff405cccce where this string of 20 bytes is stored: 'GDM_LANG=en_US.UTF-8'
+	envp[6] (at address 0x7fff405ca4a8) points to address 0x7fff405ccce3 where this string of 24 bytes is stored: 'HISTIGNORE=ls:ps:history'
+	envp[7] (at address 0x7fff405ca4b0) points to address 0x7fff405cccfc where this string of 22 bytes is stored: 'HISTCONTROL=ignoredups'
+	envp[8] (at address 0x7fff405ca4b8) points to address 0x7fff405ccd13 where this string of 46 bytes is stored: 'CARGO_TARGET_DIR=/scratch/.cargo/ddk225/target'
+	envp[9] (at address 0x7fff405ca4c0) points to address 0x7fff405ccd42 where this string of 25 bytes is stored: 'DISPLAY=128.180.120.167:0'
+	envp[10] (at address 0x7fff405ca4c8) points to address 0x7fff405ccd5c where this string of 12 bytes is stored: 'HOSTNAME=nix'
+	envp[11] (at address 0x7fff405ca4d0) points to address 0x7fff405ccd69 where this string of 40 bytes is stored: 'GRADLE_USER_HOME=/scratch/.gradle/ddk225'
+	envp[12] (at address 0x7fff405ca4d8) points to address 0x7fff405ccd92 where this string of 163 bytes is stored: 'PATH_modshare=/usr/sbin:1:/opt/conda3/bin:1:/usr/bin:1:.:1:/opt/gradle-7.4.2/bin:1:/usr/local/sbin:1:/opt/gcc-7.1.0/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1'
+	envp[13] (at address 0x7fff405ca4e0) points to address 0x7fff405cce36 where this string of 34 bytes is stored: 'LOADEDMODULES_modshare=gcc-7.1.0:1'
+	envp[14] (at address 0x7fff405ca4e8) points to address 0x7fff405cce59 where this string of 19 bytes is stored: 'COLORTERM=truecolor'
+	envp[15] (at address 0x7fff405ca4f0) points to address 0x7fff405cce6d where this string of 15 bytes is stored: 'USERNAME=ddk225'
+	envp[16] (at address 0x7fff405ca4f8) points to address 0x7fff405cce7d where this string of 27 bytes is stored: 'JAVA_HOME=/usr/lib/jvm/java'
+	envp[17] (at address 0x7fff405ca500) points to address 0x7fff405cce99 where this string of 31 bytes is stored: 'CFLAGS=-I/opt/gcc-7.1.0/include'
+	envp[18] (at address 0x7fff405ca508) points to address 0x7fff405cceb9 where this string of 13 bytes is stored: 'S_COLORS=auto'
+	envp[19] (at address 0x7fff405ca510) points to address 0x7fff405ccec7 where this string of 24 bytes is stored: 'which_declare=declare -f'
+	envp[20] (at address 0x7fff405ca518) points to address 0x7fff405ccee0 where this string of 68 bytes is stored: 'LD_LIBRARY_PATH_modshare=/opt/gcc-7.1.0/lib:1:/opt/gcc-7.1.0/lib64:1'
+	envp[21] (at address 0x7fff405ca520) points to address 0x7fff405ccf25 where this string of 25 bytes is stored: 'CC=/opt/gcc-7.1.0/bin/gcc'
+	envp[22] (at address 0x7fff405ca528) points to address 0x7fff405ccf3f where this string of 19 bytes is stored: 'XDG_SESSION_ID=2167'
+	envp[23] (at address 0x7fff405ca530) points to address 0x7fff405ccf53 where this string of 52 bytes is stored: 'MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl'
+	envp[24] (at address 0x7fff405ca538) points to address 0x7fff405ccf88 where this string of 11 bytes is stored: 'USER=ddk225'
+	envp[25] (at address 0x7fff405ca540) points to address 0x7fff405ccf94 where this string of 21 bytes is stored: 'DESKTOP_SESSION=gnome'
+	envp[26] (at address 0x7fff405ca548) points to address 0x7fff405ccfaa where this string of 32 bytes is stored: 'CONDA_PKGS_DIRS=/opt/conda3/pkgs'
+	envp[27] (at address 0x7fff405ca550) points to address 0x7fff405ccfcb where this string of 85 bytes is stored: 'GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/9c7655ed_1858_42ec_8160_ccfa0a80bdd1'
+	envp[28] (at address 0x7fff405ca558) points to address 0x7fff405cd021 where this string of 33 bytes is stored: 'PWD=/home/ddk225/cse109/labs/lab4'
+	envp[29] (at address 0x7fff405ca560) points to address 0x7fff405cd043 where this string of 50 bytes is stored: 'SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass'
+	envp[30] (at address 0x7fff405ca568) points to address 0x7fff405cd076 where this string of 17 bytes is stored: 'HOME=/home/ddk225'
+	envp[31] (at address 0x7fff405ca570) points to address 0x7fff405cd088 where this string of 21 bytes is stored: 'REALHOME=/home/ddk225'
+	envp[32] (at address 0x7fff405ca578) points to address 0x7fff405cd09e where this string of 20 bytes is stored: 'XDG_SESSION_TYPE=x11'
+	envp[33] (at address 0x7fff405ca580) points to address 0x7fff405cd0b3 where this string of 120 bytes is stored: 'XDG_DATA_DIRS=/home/ddk225/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'
+	envp[34] (at address 0x7fff405ca588) points to address 0x7fff405cd12c where this string of 47 bytes is stored: '_LMFILES__modshare=/etc/modulefiles/gcc-7.1.0:1'
+	envp[35] (at address 0x7fff405ca590) points to address 0x7fff405cd15c where this string of 25 bytes is stored: 'XDG_SESSION_DESKTOP=gnome'
+	envp[36] (at address 0x7fff405ca598) points to address 0x7fff405cd176 where this string of 23 bytes is stored: 'GJS_DEBUG_OUTPUT=stderr'
+	envp[37] (at address 0x7fff405ca5a0) points to address 0x7fff405cd18e where this string of 33 bytes is stored: 'CARGO_HOME=/scratch/.cargo/ddk225'
+	envp[38] (at address 0x7fff405ca5a8) points to address 0x7fff405cd1b0 where this string of 23 bytes is stored: 'LOADEDMODULES=gcc-7.1.0'
+	envp[39] (at address 0x7fff405ca5b0) points to address 0x7fff405cd1c8 where this string of 176 bytes is stored: '_JAVA_OPTIONS=-Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -DformatMsgNoLookups=true'
+	envp[40] (at address 0x7fff405ca5b8) points to address 0x7fff405cd279 where this string of 27 bytes is stored: 'MAIL=/var/spool/mail/ddk225'
+	envp[41] (at address 0x7fff405ca5c0) points to address 0x7fff405cd295 where this string of 32 bytes is stored: 'LOG4J_FORMAT_MSG_NO_LOOKUPS=true'
+	envp[42] (at address 0x7fff405ca5c8) points to address 0x7fff405cd2b6 where this string of 19 bytes is stored: 'TERM=xterm-256color'
+	envp[43] (at address 0x7fff405ca5d0) points to address 0x7fff405cd2ca where this string of 16 bytes is stored: 'VTE_VERSION=5204'
+	envp[44] (at address 0x7fff405ca5d8) points to address 0x7fff405cd2db where this string of 15 bytes is stored: 'SHELL=/bin/bash'
+	envp[45] (at address 0x7fff405ca5e0) points to address 0x7fff405cd2eb where this string of 17 bytes is stored: 'QT_IM_MODULE=ibus'
+	envp[46] (at address 0x7fff405ca5e8) points to address 0x7fff405cd2fd where this string of 19 bytes is stored: 'XMODIFIERS=@im=ibus'
+	envp[47] (at address 0x7fff405ca5f0) points to address 0x7fff405cd311 where this string of 40 bytes is stored: 'MANPATH_modshare=:1:/opt/gcc-7.1.0/man:1'
+	envp[48] (at address 0x7fff405ca5f8) points to address 0x7fff405cd33a where this string of 25 bytes is stored: 'XDG_CURRENT_DESKTOP=GNOME'
+	envp[49] (at address 0x7fff405ca600) points to address 0x7fff405cd354 where this string of 28 bytes is stored: 'GNOME_TERMINAL_SERVICE=:1.65'
+	envp[50] (at address 0x7fff405ca608) points to address 0x7fff405cd371 where this string of 11 bytes is stored: 'TMOUT=86400'
+	envp[51] (at address 0x7fff405ca610) points to address 0x7fff405cd37d where this string of 34 bytes is stored: 'VSCODE_EXTENSIONS=/opt/vscode-exts'
+	envp[52] (at address 0x7fff405ca618) points to address 0x7fff405cd3a0 where this string of 7 bytes is stored: 'SHLVL=2'
+	envp[53] (at address 0x7fff405ca620) points to address 0x7fff405cd3a8 where this string of 28 bytes is stored: 'MANPATH=/opt/gcc-7.1.0/man::'
+	envp[54] (at address 0x7fff405ca628) points to address 0x7fff405cd3c5 where this string of 15 bytes is stored: 'GDK_BACKEND=x11'
+	envp[55] (at address 0x7fff405ca630) points to address 0x7fff405cd3d5 where this string of 123 bytes is stored: 'MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles'
+	envp[56] (at address 0x7fff405ca638) points to address 0x7fff405cd451 where this string of 16 bytes is stored: 'GDMSESSION=gnome'
+	envp[57] (at address 0x7fff405ca640) points to address 0x7fff405cd462 where this string of 43 bytes is stored: 'GNOME_DESKTOP_SESSION_ID=this-is-deprecated'
+	envp[58] (at address 0x7fff405ca648) points to address 0x7fff405cd48e where this string of 14 bytes is stored: 'LOGNAME=ddk225'
+	envp[59] (at address 0x7fff405ca650) points to address 0x7fff405cd49d where this string of 97 bytes is stored: 'DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Q4CCy4FSuK,guid=edc3175ad49b3ae35c52dd5d640645b7'
+	envp[60] (at address 0x7fff405ca658) points to address 0x7fff405cd4ff where this string of 32 bytes is stored: 'XDG_RUNTIME_DIR=/run/user/250884'
+	envp[61] (at address 0x7fff405ca660) points to address 0x7fff405cd520 where this string of 51 bytes is stored: 'XAUTHORITY=/run/gdm/auth-for-ddk225-GML701/database'
+	envp[62] (at address 0x7fff405ca668) points to address 0x7fff405cd554 where this string of 96 bytes is stored: 'MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2'
+	envp[63] (at address 0x7fff405ca670) points to address 0x7fff405cd5b5 where this string of 140 bytes is stored: 'PATH=.:/opt/gcc-7.1.0/bin:.:/usr/share/Modules/bin:/opt/gradle-7.4.2/bin:/opt/conda3/bin:.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin'
+	envp[64] (at address 0x7fff405ca678) points to address 0x7fff405cd642 where this string of 36 bytes is stored: '_LMFILES_=/etc/modulefiles/gcc-7.1.0'
+	envp[65] (at address 0x7fff405ca680) points to address 0x7fff405cd667 where this string of 12 bytes is stored: 'PS1=nix:\w% '
+	envp[66] (at address 0x7fff405ca688) points to address 0x7fff405cd674 where this string of 47 bytes is stored: 'DEBUGINFOD_URLS=https://debuginfod.centos.org/ '
+	envp[67] (at address 0x7fff405ca690) points to address 0x7fff405cd6a4 where this string of 26 bytes is stored: 'GCC=/opt/gcc-7.1.0/bin/gcc'
+	envp[68] (at address 0x7fff405ca698) points to address 0x7fff405cd6bf where this string of 30 bytes is stored: 'MODULESHOME=/usr/share/Modules'
+	envp[69] (at address 0x7fff405ca6a0) points to address 0x7fff405cd6de where this string of 14 bytes is stored: 'HISTSIZE=65536'
+	envp[70] (at address 0x7fff405ca6a8) points to address 0x7fff405cd6ed where this string of 32 bytes is stored: 'GJS_DEBUG_TOPICS=JS ERROR;JS LOG'
+	envp[71] (at address 0x7fff405ca6b0) points to address 0x7fff405cd70e where this string of 18 bytes is stored: 'HISTFILESIZE=65536'
+	envp[72] (at address 0x7fff405ca6b8) points to address 0x7fff405cd721 where this string of 81 bytes is stored: 'SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/331387,unix/unix:/tmp/.ICE-unix/331387'
+	envp[73] (at address 0x7fff405ca6c0) points to address 0x7fff405cd773 where this string of 34 bytes is stored: 'LESSOPEN=||/usr/bin/lesspipe.sh %s'
+	envp[74] (at address 0x7fff405ca6c8) points to address 0x7fff405cd796 where this string of 144 bytes is stored: 'BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}'
+	envp[75] (at address 0x7fff405ca6d0) points to address 0x7fff405cd827 where this string of 48 bytes is stored: 'BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}'
+	envp[76] (at address 0x7fff405ca6d8) points to address 0x7fff405cd858 where this string of 1092 bytes is stored: 'BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}'
+	envp[77] (at address 0x7fff405ca6e0) points to address 0x7fff405cdc9d where this string of 644 bytes is stored: 'BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}'
+	envp[78] (at address 0x7fff405ca6e8) points to address 0x7fff405cdf22 where this string of 118 bytes is stored: 'BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}'
+	envp[79] (at address 0x7fff405ca6f0) points to address 0x7fff405cdf99 where this string of 37 bytes is stored: 'BASH_FUNC_ml%%=() {  module ml "$@"
+}'
+	envp[80] (at address 0x7fff405ca6f8) points to address 0x7fff405cdfbf where this string of 12 bytes is stored: '_=./lab4_ref'
+	envp[81] (at address 0x7fff405ca700) points to address 0x7fff405cdfcc where this string of 32 bytes is stored: 'OLDPWD=/home/merle/109/labs/lab4'
+	envp[82] (at address 0x7fff405ca708) is (null)
+

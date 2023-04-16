@@ -1,0 +1,5 @@
+passingTest1	255	1	-1
+passingTest2	255	18446744073709551615	1
+interestingTest1	99	99	99
+interestingTest2	99	99	99
+reallyVeryInterestingTest3	29541	13172	99
