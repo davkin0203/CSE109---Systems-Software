@@ -1,0 +1,103 @@
+-- Byte Code format
+
+-- test-file = test* | coment* ;
+-- 
+-- test = insert-node | insert-head | insert-tail | remove-node
+--          | remove-head | remove-tail | assert-node | assert-head
+--          | assert-tail | assert-size | end-of-test | assert-contains;
+-- 
+-- insert-node = "N", index, ",", value ;
+-- insert-head = "H", value ;
+-- insert-tail = "T", value ;
+-- 
+-- remove-node = "E", index ;
+-- remove-head = "D", ;
+-- remove-tail = "C", ;
+-- 
+-- assert-node = "Q", index, ",",  value ;
+-- assert-head = "A", value ;
+-- assert-tail = "Z", value;
+-- assert-size = "S", size ;
+-- assert-contains = "W", value ;
+-- 
+-- end-of-test = "X";
+-- 
+-- index = digit+;
+-- value = "-"? digit+;
+-- size = digit+;
+-- digit = "0" | "1" | ... | "9";
+-- comment = "--", ?anycharacter?;
+
+-- For example:
+
+-- Test 1 - Add a node to an empty linked list
+-- Inserts a node with a value of 5 as the head and verifies that the head, tail, and size of the linked list are all correct.
+H5A5Z5S1X
+
+-- This bytecode string should be interpreted as follows:
+
+-- H 5     -- insert 5 as the head node
+-- A 5     -- assert that the head node has a value of 5
+-- Z 5     -- assert that the tail node has a value of 5
+-- S 1     -- assert that the size of the linked list is 1
+-- X       -- end of test
+
+-- In this test, the H operation is used to insert a new node with a value of 5 as the head of the linked list. The A operation is then used to assert that the head node has a value of 5, and the Z operation is used to assert that the tail node also has a value of 5 (since there is only one node in the list). Finally, the S operation is used to assert that the size of the linked list is 1. The test ends with the X operation.
+
+-- BEGIN TESTS ------------------------------------------------------
+
+-- Test 2 - Add a node to the head of a non-empty linked list
+-- Inserts a node with a value of 5 as the head, then inserts a node with a value of 10 as the new head and verifies that the head, tail, and size of the linked list are all correct.
+H5A5Z5S1N0,10A10Z5S2X
+
+-- Test 3 - Add a node to the tail of a non-empty linked list
+-- Inserts a node with a value of 10 as the tail and verifies that the head, tail, and size of the linked list are all correct.
+H5T10A5Q0,5A5Z10S2X
+
+-- Test 4 - Removes the tail node from a linked list with multiple nodes:
+-- Inserts three nodes with values of 5, 10, and 15 as the head, removes the head node with a value of 15, and verifies that the head, tail, and size of the linked list are all correct.
+H5H10H15DA10T5S3X
+
+-- Test 5 - Removes the tail node from a linked list with multiple nodes:
+-- Inserts three nodes with values of 5, 10, and 15 as the head, removes the tail node with a value of 5, and verifies that the head, tail, and size of the linked list are all correct.
+H5H10H15CA15T10S3X
+
+-- Test 6 - Removes a node from the middle of a linked list with multiple nodes:
+-- Inserts three nodes with values of 5, 10, and 15 as the head, removes the node with a value of 10, and verifies that the head, tail, and size of the linked list are all correct.
+H5H10H15E1A15Z5S2X
+
+-- Test 7 - getting the value of the head node in a linked list:
+-- Inserts two nodes with values of 5 and 10 as the head, gets the value of the head node, and verifies that the head, tail, and size of the linked list are all correct.
+H5H10A10S2X
+
+-- Test 8 - Getting the value of the tail node in a linked list:
+-- Inserts two nodes with values of 5 and 10 as the head, gets the value of the tail node, and verifies that the head, tail, and size of the linked list are all correct.
+H5H10Z5A10S2X
+
+-- Test 9 - Check if a node with a given value exists in a linked list:
+-- Inserts three nodes with values of 5, 10, and 15 as the head, checks if a node with a value of 10 exists, and verifies the head, tail, and size of the linked list are all correct.
+H5H10H15W10S3X
+
+-- Test 10 - Remove the last node in a linked list:
+-- Inserts a node with a value of 5 as the head and removes it, verifying that the head, tail, and size of the linked list are all correct. This edge case tests what happens when the linked list becomes empty after removing the last node.
+H5H10CZ10S1X
+
+-- Test 11 - Checking the value of a node at a given index in a linked list:
+-- Inserts a node with a value of 10 as the head, add another value of 15 as head, verifying that the head of the linked list is correct. Adds tail with value 5 and asserts tail. 
+H10H15A15Q1,10T5Z5X
+
+-- Test 12 - Remove the node with given index in a linked list:
+-- Inserts three nodes with values of 5, 10, and 15 as the head. Check if value 15 is in linked list. Remove node at index 2 and confirm size of 2. 
+H5H10H15W15E2S2X
+
+-- Test 13 - Checking if the node at index 1 (becoming index 0) becomes the head once head is removed:
+-- Inserts a node with a value of 5 and 15 as the head and value 10 as tail. Assert value of 15 is the head then remove it and assert value of 5 at index 0 and size 2. 
+H5H15T10A15DQ0,5S2X
+
+-- Test 14 - Checking to see if contains recognizes multiple values after some are removed:
+-- Inserts a node with a value of 5, 5, 15 as the head and 5 as tail. Delete head then contains 5, then delete the next head then contains 5 and lastly check that size is 2.
+H5H5H15T5DW5DW5S2X
+
+-- Test 15 - Checking to see if size of the list is 1 if all elements of the list are removed except 1:
+-- Inserts heads with value of 5, 10, 15 and tail 5, verifying that the element at index 3 is 5. Then, removing three heads until one element remaining and cofirming that size of the list.
+H5H10H15T5Q3,5DDDS1X
